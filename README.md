@@ -7,7 +7,7 @@ Aquí mostraré ejemplos de Jakarta Contexts and Dependency Injection
 
 Debemos definir la interfaz que usaremos.
 
-Interfaz [GreetingService](src/main/java/com/example/jakarta/cdi/GreetingService.java)
+Interfaz [GreetingService](simple-cdi/src/main/java/com/example/jakarta/cdi/GreetingService.java)
 ```java
 package com.example.jakarta.cdi;
 
@@ -18,7 +18,7 @@ public interface GreetingService {
 
 Y a partir de ella declaramos nuestras clases especializadas.
 
-Clase [EnglishGreetingService](src/main/java/com/example/jakarta/cdi/impl/EnglishGreetingService.java)
+Clase [EnglishGreetingService](simple-cdi/src/main/java/com/example/jakarta/cdi/impl/EnglishGreetingService.java)
 ```java
 package com.example.jakarta.cdi.impl;
 
@@ -37,7 +37,7 @@ public class EnglishGreetingService implements GreetingService {
 }
 ```
 
-Clase [SpanishGreetingService](src/main/java/com/example/jakarta/cdi/impl/SpanishGreetingService.java)
+Clase [SpanishGreetingService](simple-cdi/src/main/java/com/example/jakarta/cdi/impl/SpanishGreetingService.java)
 ```java
 package com.example.jakarta.cdi.impl;
 
@@ -58,7 +58,7 @@ public class SpanishGreetingService implements GreetingService {
 ```
 
 Y se invoca de la siguiente manera
-Clase de prueba [GreetingServiceTest](src/test/java/com/example/jakarta/cdi/GreetingServiceTest.java)
+Clase de prueba [GreetingServiceTest](simple-cdi/src/test/java/com/example/jakarta/cdi/GreetingServiceTest.java)
 ```java
   @Inject
   @Named("English")

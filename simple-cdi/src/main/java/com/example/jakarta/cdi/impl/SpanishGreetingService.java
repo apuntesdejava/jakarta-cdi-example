@@ -3,7 +3,6 @@ package com.example.jakarta.cdi.impl;
 import com.example.jakarta.cdi.GreetingService;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Named;
-import jdk.jfr.Name;
 
 @ApplicationScoped
 @Named("Spanish")
