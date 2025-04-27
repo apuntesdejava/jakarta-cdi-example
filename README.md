@@ -3,6 +3,7 @@
 Aquí mostraré ejemplos de Jakarta Contexts and Dependency Injection
 
 ## 1. Implementando _Dependency Inversion Principle_
+[![Introducción a Inyección de Dependencias con Jakarta EE - Jakarta CDI](https://img.youtube.com/vi/ynq9_0n79pI/default.jpg)](https://youtu.be/ynq9_0n79pI)
 
 Debemos definir la interfaz que usaremos.
 
